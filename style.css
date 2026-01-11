@@ -10,31 +10,19 @@ body {
     color: var(--bg100);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    nav {
-        display: flex;
-        justify-content: space-evenly;
-        height: 65px;
-        padding: 10px 16px;
-    }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    padding: 10px 16px;
+}
 
-    .menu-handheld{
-        height: 40px;
-        width: 40px;
-    }
+.menu-handheld, .add_book, nav img{
+    height: 40px;
+    width: 40px;
+}
 
-    nav label > input {
-        border-radius: 5px;
-        height: 40px;
-    }
-
-    .add_book {
-        height: 40px;
-        width: 40px;
-    }
-
-    nav img {
-        height: 40px;
-        width: 40px;
-    }
+nav label > input {
+    border-radius: 5px;
+    height: 40px;
 }
