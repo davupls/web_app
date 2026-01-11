@@ -4,10 +4,11 @@
     margin: 0;
 
     --bg100: #E8F0EF;
+    --bg000: #FFF;
 }
 
 body {
-    color: var(--bg100);
+    background-color: var(--bg100);
 }
 
 nav {
@@ -15,6 +16,8 @@ nav {
     justify-content: space-evenly;
     height: 65px;
     padding: 10px 16px;
+
+    background-color: var(--bg000);
 }
 
 .menu-handheld, .add_book, nav img{
